@@ -24,3 +24,4 @@ while n < 1 :
     print(matricula,promedio,file=f)
     n=n-1    
     f.close
+1
