@@ -22,10 +22,5 @@ while n < 1 :
     promedio=(cali1+cali2)/2
     
     print(matricula,promedio,file=f)
-    n=n-1
-    
-f=open('notas.txt','rt')
-for linea in f:
-    print(linea, end='')
-    
-f.close
+    n=n-1    
+    f.close
